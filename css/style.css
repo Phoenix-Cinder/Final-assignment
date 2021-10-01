@@ -1,0 +1,85 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.topNav {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: palevioletred;
+    }
+    .topNavList {
+        float: right;
+    }       
+    .topNavList a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }         
+    .topNavList a:hover {
+        background-color: white;
+    } 
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.header {
+    position: relative;
+}
+#header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: lightgrey;
+    color: black;
+}
+body  {
+    color: #030303;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 300;
+}
+.wrapper {
+    margin: 0 auto;
+}
+.leftCol {
+    float: left;
+    width: 50%;   
+}
+.rightCol{
+    float: right;
+    width: 50%;
+}
+.buttonGroup {
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+.pointer {
+    cursor: pointer;
+}
+.invitationArea {
+    text-align: center;
+    margin: 50% 0;
+    font-size: 60px;
+    font-family: cursive;
+}
+p {
+    padding: 0 10px;
+    line-height: 1.8;
+}
+#content {
+    margin: 0 10px;
+}
+h2 {
+    margin: 0 10px;
+}
